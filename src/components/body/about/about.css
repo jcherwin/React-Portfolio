@@ -1,0 +1,20 @@
+@media (max-width: 991.98px) {
+    .headshot {
+        width: 50% !important; 
+    }
+    .about {
+        width: 100% !important;
+    }
+}
+
+.headshot {
+    width: 20%;
+    border-radius: 160px;
+}
+
+.about {
+    padding-left: 5%;
+    width: 70%;
+}
+
+

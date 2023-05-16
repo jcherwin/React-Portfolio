@@ -1,0 +1,9 @@
+@media (max-width: 576px) {
+    .front-end, .back-end {
+        width: 100% !important;
+    }
+}
+
+.front-end, .back-end {
+    width: 50%;
+}

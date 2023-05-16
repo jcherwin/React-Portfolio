@@ -1,0 +1,28 @@
+/* DECLARE VARIABLES */
+:root {
+    --black: #000000ff;
+    --rich-black: #0c1821ff;
+    --oxford-blue: #1b2a41ff;
+    --charcoal: #2C5784;
+    --lavender-web: #ccc9dcff;
+    --mint-cream: #f3f7f0ff;
+    --baby-blue: #88ccf1ff;
+    --columbia-blue: #c1dff0ff;
+    --blue-munsell: #3587a4ff;
+    --teal: #2d848aff;
+    --dark-cyan: #2d898bff;
+    --bg-light: #1F1F23;
+    --bg-dark: #0E0E10;
+    --white: #E7E7EF;
+}
+
+body {
+    color: var(--white);
+    background-color: var(--bg-light);
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    margin-top: 30px;
+}

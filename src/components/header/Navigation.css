@@ -1,0 +1,43 @@
+/* DECLARE VARIABLES */
+:root {
+    --black: #000000ff;
+    --rich-black: #0c1821ff;
+    --oxford-blue: #1b2a41ff;
+    --charcoal: #2C5784;
+    --lavender-web: #ccc9dcff;
+    --mint-cream: #f3f7f0ff;
+    --baby-blue: #88ccf1ff;
+    --columbia-blue: #c1dff0ff;
+    --blue-munsell: #3587a4ff;
+    --teal: #2d848aff;
+    --dark-cyan: #2d898bff;
+    --bg-light: #1F1F23;
+    --bg-dark: #0E0E10;
+    --white: #E7E7EF;
+}
+
+.nav {
+    margin-right: 40px;
+}
+
+.nav .nav-item a {
+  color: black;
+  font-size: 1.4rem;
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--charcoal) !important;
+}
+
+@media screen and (max-width: 990px) {
+    header{
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0px;
+    }
+
+    .nav{
+        flex-flow: column;        
+    }
+}
