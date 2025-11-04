@@ -8,8 +8,8 @@ export default function About() {
       <img src='./img/headshot.jpg' alt='headshot' className='p-2 headshot align-self-start' />
       <p className='fs-4 about'>
         My name is Jon Cherwin. <br/><br/> 
-        I am a Full-Stack Web developer who takes pride in building functional projects to serve a multitude of needs and interests. <br/><br/>
-        I am always eager to improve my skills as well as learn new ones to improve my work.
+        I’m a Full-Stack Web Developer with over 7 years of technical experience turning ideas into fast, scalable, and visually engaging digital products. <br/><br/>
+        Always evolving, I stay at the forefront of new technologies to deliver results that drive growth and innovation.
       </p>
     </div>
   );
