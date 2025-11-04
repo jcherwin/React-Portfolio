@@ -4,7 +4,7 @@ export const projects = [
         title: "movieQue",
         subtitle: "MERN Stack",
         description:
-            "A personal Movie Tracking app that utilizes the Fetch API to search for movies and add them to lists using the browser's Local Storage",
+            "A personal Movie Tracking app that utilizes the Fetch API to search for movies and add them to lists using the browser's Local Storage (demo no longer available due to API changes)",
         image: "./img/project-1.jpg",
         link_demo: "https://solomon-coding.github.io/movieQue/",
         link_src: "https://github.com/Solomon-Coding/movieQue",
@@ -28,5 +28,15 @@ export const projects = [
         image: "./img/project-3.jpg",
         link_demo: "https://jjs-games.herokuapp.com/",
         link_src: "https://github.com/jcherwin/2js-games",
+    },
+    {
+        id: 4,
+        title: "Nomadica Travel",
+        subtitle: "Wordpress",
+        description:
+            "Here I worked together closely with a client to deliver an appealing and informational website for his new business, with features such as a blog and personality quiz",
+        image: "./img/project-4.jpg",
+        link_demo: "https://gonomadica.com/",
+        link_src: "",
     },
 ];
