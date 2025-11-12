@@ -12,7 +12,7 @@ export const projects = [
     {
         id: 2,
         title: "2JS Games",
-        subtitle: "MERN",
+        subtitle: "MERN App",
         description:
             "A multiplayer games platform website that allows you to play games with friends in real time",
         image: "./img/project-3.jpg",
@@ -32,11 +32,21 @@ export const projects = [
     {
         id: 4,
         title: "movieQue",
-        subtitle: "MERN Stack",
+        subtitle: "MERN App",
         description:
             "A personal Movie Tracking app that utilizes the Fetch API to search for movies and add them to lists using the browser's Local Storage (demo no longer available due to API changes)",
         image: "./img/project-1.jpg",
         link_demo: "https://solomon-coding.github.io/movieQue/",
         link_src: "https://github.com/Solomon-Coding/movieQue",
+    },
+    {
+        id: 5,
+        title: "Tech Blog",
+        subtitle: "MERN MVC App",
+        description:
+            "A secure backend API powering a CMS blog with user accounts and CRUD management for posts and comments.",
+        image: "./img/project-5.jpg",
+        link_demo: "https://personal-tech-blog-mvc.herokuapp.com/",
+        link_src: "https://github.com/jcherwin/Personal-Tech-Blog",
     },
 ];
