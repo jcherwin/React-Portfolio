@@ -1,26 +1,16 @@
 export const projects = [
     {
         id: 1,
-        title: "movieQue",
-        subtitle: "MERN Stack",
+        title: "Nomadica Travel",
+        subtitle: "Wordpress",
         description:
-            "A personal Movie Tracking app that utilizes the Fetch API to search for movies and add them to lists using the browser's Local Storage (demo no longer available due to API changes)",
-        image: "./img/project-1.jpg",
-        link_demo: "https://solomon-coding.github.io/movieQue/",
-        link_src: "https://github.com/Solomon-Coding/movieQue",
+            "Here I worked together closely with a client to deliver an appealing and informational website for his new business, with features such as a blog and personality quiz",
+        image: "./img/project-4.jpg",
+        link_demo: "https://gonomadica.com/",
+        link_src: "https://gonomadica.com/",
     },
     {
         id: 2,
-        title: "Chum's Bucket",
-        subtitle: "React and Python",
-        description:
-            "An E-Commerce Restaurant ordering site utilizing the MVC framework, MySQL, Sequelize, and Handlebars",
-        image: "./img/project-2.jpg",
-        link_demo: "https://lit-citadel-42811.herokuapp.com/",
-        link_src: "https://github.com/jcherwin/chums-bucket",
-    },
-    {
-        id: 3,
         title: "2JS Games",
         subtitle: "MERN",
         description:
@@ -30,13 +20,23 @@ export const projects = [
         link_src: "https://github.com/jcherwin/2js-games",
     },
     {
-        id: 4,
-        title: "Nomadica Travel",
-        subtitle: "Wordpress",
+        id: 3,
+        title: "Chum's Bucket",
+        subtitle: "React and Python",
         description:
-            "Here I worked together closely with a client to deliver an appealing and informational website for his new business, with features such as a blog and personality quiz",
-        image: "./img/project-4.jpg",
-        link_demo: "https://gonomadica.com/",
-        link_src: "",
+            "An E-Commerce Restaurant ordering site utilizing the MVC framework, MySQL, Sequelize, and Handlebars",
+        image: "./img/project-2.jpg",
+        link_demo: "https://chums-bucket-4734c380f41e.herokuapp.com/",
+        link_src: "https://github.com/jcherwin/chums-bucket",
+    },
+    {
+        id: 4,
+        title: "movieQue",
+        subtitle: "MERN Stack",
+        description:
+            "A personal Movie Tracking app that utilizes the Fetch API to search for movies and add them to lists using the browser's Local Storage (demo no longer available due to API changes)",
+        image: "./img/project-1.jpg",
+        link_demo: "https://solomon-coding.github.io/movieQue/",
+        link_src: "https://github.com/Solomon-Coding/movieQue",
     },
 ];
